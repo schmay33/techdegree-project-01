@@ -129,7 +129,7 @@ function printQuote() {
   //checks if year is present by checking if it is undefined
   if (randQuote.year !== undefined) {
     html += `
-    <span class="citation">${randQuote.year}</span>
+    <span class="year">${randQuote.year}</span>
     `;
   }
   
