@@ -7,6 +7,8 @@ project 1 - A Random Quote Generator
 // Check the "Project Resources" section of the project instructions
 // Reach out in your Slack community - https://treehouse-fsjs-102.slack.com/app_redirect?channel=chit-chat
 
+//internal to auto update the quote
+const interval = 5000; //in milliseconds
 /*** 
  * `quotes` array 
  ***/
@@ -184,4 +186,4 @@ function random_rgba() {
  * @param  {string} printQuote
  * @param  {number} 5000
  */
-setInterval(printQuote, 5000); //time in milliseconds
+setInterval(printQuote, interval); //time in milliseconds
